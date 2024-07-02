@@ -32,7 +32,9 @@ fuse:
 	$(AVRDUDE) $(FUSES)
 
 # Xcode uses the Makefile targets "", "clean" and "install"
-install: flash fuse
+# NOTE by coquin: I'm disabling "fuse" target here as fuse programming 
+#                 by avrdude does not seem to be supported by trinket
+install: flash #fuse
 
 # if you use a bootloader, change the command below appropriately:
 load: all
