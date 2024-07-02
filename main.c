@@ -1,8 +1,12 @@
 #include <avr/io.h>
+#include <avr/power.h>
 #include <util/delay.h>
 
 int main (void)
 {
+    // Use 16 MHz clock
+    clock_prescale_set(clock_div_1);
+
     // Set Data Direction to output on port B, pins 1:
     DDRB |= (1 << PB1);
     while (1) {

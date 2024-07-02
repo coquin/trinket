@@ -18,4 +18,4 @@ Plug the board to USB port, press reset button to enter the bootloader, red LED 
 make install
 ```
 
-Note: fuse programming does not seem to be supported by trinket, default oscillator runs at 8 MHz, could be doubled in software.
+Note: fuse programming does not seem to be supported by trinket, default oscillator runs at ~8 MHz, could be doubled in software~ 16 MHz.
