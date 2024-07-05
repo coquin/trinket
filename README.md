@@ -1,6 +1,10 @@
 # trinket
 
+_DISCLAIMER: this repository is archived. I decided to switch to Rust, which seem to be a better option for embedded development (especially for newbies like me) in 2024 than C/C++. Please have a look at my [`rustytrinket`] repository._
+
 Code examples for [Adafruit trinket board](https://www.adafruit.com/product/1501).
+
+[`rustytrinket`]: https://github.com/coquin/rustytrinket
 
 ### Installation (ArchLinux)
 
